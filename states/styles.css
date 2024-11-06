@@ -1,0 +1,40 @@
+::-webkit-scrollbar{
+      display: none;
+  }
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      font-family: cursive;
+      background-color: aquamarine;
+      color: black;
+      line-height: 1.6;
+      overflow-x:hidden ;
+  }
+  header{
+      background-color: aquamarine;
+      color: black;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background-image: url("21.avif");
+  }
+  .image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image img{
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .content{
+    margin-left: 20px;
+    margin-top: 20px;
+  }

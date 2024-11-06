@@ -1,0 +1,256 @@
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: aquamarine;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0
+    }
+    .btn-p{
+        margin-left: 14rem;
+    }
+    .dropbtn{
+        background-color:transparent;
+        color: rgb(4, 4, 4);
+        padding: 16px;
+        font: size 16px;
+        border: black 2px solid;
+        cursor: pointer;
+        border-radius: 20%;
+        margin-top: 20px;
+        margin-left: 26.5rem;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 20rem;
+        background-color: rgb(251, 251, 235);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a{
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover{background-color: rgb(93, 228, 235);}
+    .dropdown:hover .dropdown-content{
+      display:block
+    }
+    .dropdown:hover .dropbtn{
+      background-color: green;
+    }
+
+
+
+
+
+    ::-webkit-scrollbar{
+      display: none;
+  }
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      font-family: cursive;
+      background-color: aquamarine;
+      color: black;
+      line-height: 1.6;
+      overflow-x:hidden ;
+  }
+  header{
+      background-color: aquamarine;
+      color: black;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background-image: url("21.avif");
+  }
+  header h1{
+      font-size: 36px;
+      letter-spacing: 2px;
+  }
+  header p{
+      font-size: 18px;
+      margin-top: 10px;
+  }
+  nav {
+    
+      display: flex;
+      justify-content: center;
+      background-color: #158f77;
+      padding: 15px;
+      top: 70px;
+      z-index: 2;
+  }
+  nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s ease-in-out;
+  }
+  nav a:hover {
+      color: #ffd700;
+  }
+  section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #f0fdfc;
+
+  }
+  h2 {
+      font-size: 32px;
+      color: #1c6758;
+      margin-bottom: 40px;
+      position: relative;
+  }
+  h2::after {
+      content: '';
+      width: 60px;
+      height: 4px;
+      background-color: #ffd700;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .custom {
+      margin-left: 42%;
+  }
+  .custom::after {
+      content: '';
+      width: 60px;
+      height: 4px;
+      background-color: #ffd700;
+      position: absolute;
+      bottom: -10px;
+      left: 13%;
+      transform: translateX(-50%);
+  }
+  ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+  }
+  li {
+      background-color: white;
+      width: 300px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+  }
+
+  li:hover {
+      transform: translateY(-10px);
+  }
+
+  li img {
+      border-radius: 8px;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+  }
+  li h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #1c6758;
+  }
+
+  li p {
+      font-size: 16px;
+      color: #666;
+  }
+  @media (max-width: 768px) {
+      ul {
+          flex-direction: column;
+      }
+
+      li {
+          width: 80%;
+      }
+  }
+  footer {
+      margin-top:10rem;
+      text-align: center;
+      padding: 5px;
+      background-color: #1c6758;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      
+  }
+  footer p {
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+  footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+
+  footer a:hover {
+      text-decoration: underline;
+  }
+
+
+  .hero{
+    width: 80%;
+    margin-left: 7rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    border:white 2px solid;
+    padding:2rem;
+    border-radius: 20px;
+  }
+
+#about{
+    background-color: aquamarine;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left:7rem ;
+    margin-right:2rem ;
+    border: white 2px solid;
+    padding:2.5rem ;
+    border-radius: 20px; 
+}   
+
+#contact{
+    background-color: aquamarine;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left:7rem ;
+    margin-right:2rem ;
+    border: white 2px solid;
+    padding:2.5rem ;
+    border-radius: 20px; 
+}   
+#contactform{
+    
+}
+
+  .container{
+    background-color: aquamarine;
+
+
+  }
